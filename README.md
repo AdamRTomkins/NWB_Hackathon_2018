@@ -14,9 +14,15 @@ This tutorial relies on some basic assumptions as to what is installed. Primaril
 7. seaborn
 8. pynwb
 
+```
 pip install jupyterlab
 pip install elephant
 pip install h5py
 pip install seaborn
  pip install -U pynwb --find-links https://github.com/NeurodataWithoutBorders/pynwb/releases/tag/latest  --no-index
+``` 
 
+for the depreciated files
+```
+pip install nwb
+```
